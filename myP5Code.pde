@@ -1,26 +1,17 @@
-fill(0, 200, 200);
-ellipse(20, y, 50, 50);
-ellipse(200, y, 50, 50);
-ellipse(380, y, 50, 50);
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
 
-fill(ballColor);
-ellipse(x, 20, 50, 50);
-ellipse(x, 200, 50, 50);
-ellipse(x, 380, 50, 50);
-
-if (y > 400) { speed = -1 * random(4,10);}
-if (y < 0) { speed = random(4,12) ;3
-
-y = y + speed; // move the ball up and down
-
-if (x > 400) {
-    speed1 = -8;
-    ballColor = color(random(0,255), random(0,255), random(0,255));
+var answer = floor(random(1, 5));
+if (answer === 0) {
+    text("YOUR", 176, 200);
+    text("MESSAGE", 159, 229);
 }
 
-if (x < 0) 1 {
-speed1 = 8 ;
-ballColor = color (random(0,255), random(0,255), random(0,255));
-｝
+if (answer === 1) {
+   text("YOUR", 176, 200);
+    text("MESSAGE", 159, 229);
+}
 
-x = x + speed1; // move the ball left and right
